@@ -4,7 +4,7 @@
     border: solid 1px rgba(128, 128, 128, 0.575);
     border-radius: 3%;
     padding: 7px;
-    width: 600px;
+    width: 650px;
 }
 
 #mine-input {
@@ -14,6 +14,7 @@
     padding-top: 40px;
     text-align: right;
     font-size: 30px;
+    margin-bottom: 3px;
 }
 
 #mine-input:focus {
@@ -54,32 +55,26 @@
     min-height: 45px;
 }
 
-.btn4 {
-    border: none;
-    border-radius: 10%;
-    color: black;
-    background-color: rgb(195, 197, 200);
-    font-size: 16px;
-    min-width: 165px;
-    min-height: 45px;
-}
-
 .btn1:focus {
     outline: none;
-    border: 1px solid rgb(160, 160, 160);
 }
 
 .btn2:focus {
     outline: none;
-    border: 1px solid rgb(182, 182, 182);
 }
 
 .btn3:focus {
     outline: none;
-    border: 2px solid rgb(0, 33, 122);
 }
 
-.btn4:focus {
-    outline: none;
-    border: 1px solid rgb(160, 160, 160);
+.btn1:hover {
+    background-color: rgb(153, 153, 153);
+}
+
+.btn2:hover {
+    background-color: rgb(228, 228, 228);
+}
+
+.btn3:hover {
+    background-color: rgb(42, 42, 160);
 }
